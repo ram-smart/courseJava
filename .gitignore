@@ -116,3 +116,5 @@ buildNumber.properties
 
 # jenv
 .java-version
+temp
+temp.*
