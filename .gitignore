@@ -83,6 +83,7 @@ fabric.properties
 
 # Log file
 *.log
+/**/logs/
 
 # BlueJ files
 *.ctxt
@@ -113,6 +114,11 @@ dependency-reduced-pom.xml
 buildNumber.properties
 .mvn/timing.properties
 .mvn/wrapper/maven-wrapper.jar
+
+/**/target/
+!/.mvn/wrapper/maven-wrapper.properties
+/**/.mvn/
+/pom.xml.versionsBackup
 
 # jenv
 .java-version
