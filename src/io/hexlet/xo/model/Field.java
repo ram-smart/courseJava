@@ -1,3 +1,5 @@
+package io.hexlet.xo.model;
+
 public class Field {
 	String f00;
 	String f01;
