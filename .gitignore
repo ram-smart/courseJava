@@ -124,3 +124,7 @@ buildNumber.properties
 .java-version
 temp
 temp.*
+
+# building
+build
+src/build/*
