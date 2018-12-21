@@ -1,6 +1,6 @@
 package io.hexlet.xo.model;
 
 public class Point {
-	int x;
-	int y;
+	public int x;
+	public int y;
 }
