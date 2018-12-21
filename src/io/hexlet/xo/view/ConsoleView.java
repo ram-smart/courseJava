@@ -1,5 +1,5 @@
 package io.hexlet.xo.view;
-import io.hexlet.xo.model.Game;
+import io.hexlet.xo.model.Point;
 
 public class ConsoleView {
 
