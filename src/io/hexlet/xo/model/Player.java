@@ -1,20 +1,20 @@
 package io.hexlet.xo.model;
 
 public class Player {
-	public String name;
+	private final String name;
 
-	public String figure;
+	private final String figure;
 
-	public int age;
+	public Player(final String name, final String figure) {
+		this.name = name;
+		this.figure = figure;
+	}
 
-	public String mail;
+	public String getName() {
+		return name;
+	}
 
-	public String address;
-
-	public int score;
-
-	public String nick;
-
-	public String uuid;
-
+	public String getFigure() {
+		return figure;
+	}
 }

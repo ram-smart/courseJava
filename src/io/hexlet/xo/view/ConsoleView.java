@@ -1,17 +1,19 @@
 package io.hexlet.xo.view;
-import io.hexlet.xo.model.Point;
+import io.hexlet.xo.controllers.Game;
 
 public class ConsoleView {
+	private final Game game;
 
-	public int getSize() {
-		return 3;
+	public ConsoleView(Game game) {
+		this.game = game;
 	}
 
-  	public String getFigure(final Point point) {
-		return null;
+	public void showGameName () {
+		System.out.println(game.getGameName());
 	}
 
-	public void setFigure(final Point point, final String figure) {
-	}	
+	public void showPlayersName(game) {
+		System.out.println(game.getPlayers());
+	}
 
 }
